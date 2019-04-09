@@ -55,3 +55,4 @@ class GitRepository(object):
                 raise Exception("Unsupported repositoryformatversion %s" % vers)
 
 # testing
+# testing2
