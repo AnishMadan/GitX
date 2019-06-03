@@ -8,7 +8,7 @@ import sys
 import zlib
 
 argparser = argparse.ArgumentParser(description="content tracker")
-argsubparsers = argparser.add_subparseres(title="Commands",dest="command")
+argsubparsers = argparser.add_subparsers(title="Commands", dest="command")
 argsubparsers.required = True
 
 def main(argv=sys.argv[1:]):
